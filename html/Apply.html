@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Hong Kong Industrial University" content="HONG KONG Industrial University">
+    <title>Hong Kong Industrial University</title>
+    <link rel="stylesheet" href="../css/nav-head-foot.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/apply.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="../css/printApply.css" type="text/css" media="print">
+    
+   
+</head>
+<body>
+    <header id="header">
+        <img src="../image/logo.png" width="400" height="100" alt="logo of HONG KONG Industrial University">
+        <h4><b>Hong Kong Industrial University</b></h4>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Apply.html">Apply</a></li>
+                <li><a href="Visit.html">Visit</a></li>
+                <li><a href="Program.html">Program</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+       
+    </header>
+    <div id="box"></div>
+    
+    <div class="Welcome"><p>Welcome to HKIU</p></div>   
+    <div class="Apply">
+        
+        <h3 id="title">Common Application to Undergraduate Program</h3>
+        
+        <div class="dropbtn1"><h4 id="c1" onclick="f1()">College of Engineering</h4></div>
+        <div class="dropbtn2"><h4 id="c2" onclick="f2()">College of Science</h4></div>
+        <div class="dropbtn3"><h4 id="c3" onclick="f3()">College of Interdisciplinary Studies</h4></div>
+    
+    
+        <script>
+            window.onload = function () {
+                document.getElementById('c1').style.backgroundColor = 'white';
+                document.getElementById('c2').style.backgroundColor = 'lightgray'; 
+                document.getElementById('c3').style.backgroundColor = 'lightgray';
+                document.querySelector('.CENG').style.display = 'block';
+                document.querySelector('.CSC').style.display = 'none';
+                document.querySelector('.CIS').style.display = 'none';
+            };
+            function f1(){
+                document.getElementById('c1').style.backgroundColor = 'white';
+                document.getElementById('c2').style.backgroundColor = 'lightgray'; 
+                document.getElementById('c3').style.backgroundColor = 'lightgray';
+                document.querySelector('.CENG').style.display = 'block';
+                document.querySelector('.CSC').style.display = 'none';
+                document.querySelector('.CIS').style.display = 'none';
+            }
+            function f2(){
+                document.getElementById('c1').style.backgroundColor = 'lightgray';
+                document.getElementById('c2').style.backgroundColor = 'white'; 
+                document.getElementById('c3').style.backgroundColor = 'lightgray';
+                document.querySelector('.CENG').style.display = 'none';
+                document.querySelector('.CSC').style.display = 'block';
+                document.querySelector('.CIS').style.display = 'none';
+            }
+            function f3(){
+                document.getElementById('c1').style.backgroundColor = 'lightgray';
+                document.getElementById('c2').style.backgroundColor = 'lightgray';
+                document.getElementById('c3').style.backgroundColor = 'white'; 
+                document.querySelector('.CENG').style.display = 'none';
+                document.querySelector('.CSC').style.display = 'none';
+                document.querySelector('.CIS').style.display = 'block';
+                
+            }
+        </script>
+       
+            
+            <div class="CENG">
+                <form method="get" action="#">
+                    <img id="img" src="../image/cs.png" width="200" height="200" alt="cs"><br>
+                    <label for="cs">Bsc in Computer Science and Technology</label><br>
+                    <input type="text" name="cs" id="cs" value="" >
+                    <button type="button">rank of choice</button> 
+                    
+                </form>
+                    
+                <form method="get" action="#">
+                    <img src="../image/ei.png" width="200" height="200" alt="ei"><br>
+                    <label for="ei">BEng in Electronic Information</label><br>
+                    <input type="text" name="ei" id="ei" value="">
+                    <button type="button">rank of choice</button> 
+                </form>
+                    
+                <form method="get" action="#">
+                    <img src="../image/mse.png" width="200" height="200" alt="mse"><br>
+                    <label for="mse">BEng in Materials Science and Engineering</label><br>
+                    <input type="text" name="mse" id="mse" value="">
+                    <button type="button">rank of choice</button> 
+                </form>
+                    
+                <form method="get" action="#">
+                    <img src="../image/mc.png" width="200" height="200" alt="mc"><br>
+                    <label for="mc">BEng in Materials and Chemicals</label><br>
+                    <input type="text" id="mc" name="mc" value="">
+                    <button type="button">rank of choice</button> 
+                </form>
+                    
+                <form method="get" action="#">
+                <img src="../image/est.png" width="200" height="200" alt="est"><br>
+                <label for="est">BSc in Electronic Science and Technology</label><br>
+                <input type="text" id="est" name="est" value="">
+                <button type="button">rank of choice</button> 
+            </form>
+        
+        </div>
+    
+        <div class="CSC">
+            <form method="get" action="#">
+                <img src="../image/phy.png" width="200" height="200" alt="phy"><br>
+                <label for="phy">BSc in Physics</label><br>
+                <input type="text" id="phy" name="phy" value="">
+                <button type="button">rank of choice</button> 
+            </form>
+                
+            <form method="get" action="#">
+                <img src="../image/chem.png" width="200" height="200" alt="chem"><br>
+                <label for="chem">BSc in Chemistry</label><br>
+                <input type="text" id="chem" name="chem" value="">
+                <button type="button">rank of choice</button> 
+            </form>
+                
+            <form method="get" action="#">
+                <img src="../image/bio.png" width="200" height="200" alt="bio"><br>
+                <label for="bio">BSc in Biology</label><br>
+                <input type="text" id="bio" name="bio" value="">
+                <button type="button">rank of choice</button> 
+            </form>
+        </div>
+
+        <div class="CIS">
+            <form method="get" action="#">
+                <img src="../image/cogs.png" width="200" height="200" alt="cogs"><br>
+                <label for="cogs">BSc in Cognitive Science</label><br>
+                <input type="text" id="cogs" name="cogs" value="">
+                <button type="button">rank of choice</button> 
+            </form>
+                
+            <form method="get" action="#">
+                <img src="../image/be.png" width="200" height="200" alt="be"><br>
+                <label for="be">BEng in Biomedical Engineering</label><br>
+                <input type="text" id="be" name="be" value="">
+                <button type="button">rank of choice</button> 
+            </form>
+                
+            <form method="get" action="#">
+                <img src="../image/bm.png" width="200" height="200" alt="bm"><br>
+                <label for="bm">BSc in Biology and Medicine</label><br>
+                <input type="text" id="bm" name="bm" value="">
+                <button type="button">rank of choice</button> 
+            </form>
+
+        </div>
+    
+
+     </div>  
+
+
+
+    <div class="result">
+        <h3>Your chosen majors:</h3><br>
+        <div id="changeTime"></div><br>
+        <table>
+            <thead>
+                <tr>
+                    <th><b>College</b></th>
+                    <th><b>Major</b></th>
+                    <th><b>Rank</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>10</td>
+                </tr>
+            </tfoot>
+        
+            
+            
+        </table>
+        <br>
+        <div id="majorNum"></div>
+        <br>
+        <a href="" id="submit">submit</a> 
+        <a href="" id="clear">clear</a> 
+        <br>
+        <div id="validation"></div><br>
+    </div>
+    <script>
+    
+        var chosenRanks = [];
+        var buttons = document.querySelectorAll('button[type="button"]');
+
+            for (var i = 0; i < buttons.length; i++) {
+            buttons[i].onclick = eventHandler;
+        }
+
+        function eventHandler() {
+            var form = this.parentElement;
+            var rankInput = form.querySelector('input[type="text"]');
+            var rankValue = rankInput.value.trim();
+
+            if (!rankValue || isNaN(parseInt(rankValue))) {
+                alert("Please enter the rank of the chosen major");
+                return;
+            }
+
+            var rank = parseInt(rankValue);
+
+            if (rank < 1 || rank > 10) {
+                alert("Please enter the rank of the chosen major between 1 and 10");
+                return;
+            } 
+
+
+            if (chosenRanks.includes(rank)) {
+                alert("You have already chosen this rank");
+                return;
+        }
+
+        chosenRanks.push(rank);  
+
+        var major = form.querySelector('label').innerHTML;
+
+        if (form.parentElement.className === 'CENG') {
+            var college = 'College of Engineering';
+        } else if (form.parentElement.className === 'CSC') {
+            var college = 'College of Science';
+        } else if (form.parentElement.className === 'CIS') {
+            var college = 'College of Interdisciplinary Studies';
+        }
+
+        var table = document.querySelector('.result table');
+        var rows = table.querySelectorAll('tr');
+        var duplicateMajor = false;
+
+        for (var i = 1; i <= 10; i++) {
+            if (rows[i].cells[0].innerHTML === college && rows[i].cells[1].innerHTML === major) {
+                alert("You have already chosen this major");
+                duplicateMajor = true;
+                break;
+            }
+        }
+
+        if (!duplicateMajor) {
+            updateChosenMajors(rank, major, college);
+            alert('You have chosen ' + major + ' as your ' + ordinal(rank) + ' chosen major ' + ' in ' + college + ' successfully.');
+            updateTable();
+        }
+        
+        }
+
+        function ordinal(number) {
+            const suffixes = ["th", "st", "nd", "rd"];
+            const v = number % 100;
+            return number + (suffixes[(v - 20) % 10] || suffixes[v] || suffixes[0]);
+        }
+
+        function updateChosenMajors(rank, major, college) {
+            var table = document.querySelector('.result table');
+            var rows = table.querySelectorAll('tr');
+            var rowToUpdate = rows[rank]; 
+
+            rowToUpdate.cells[0].innerHTML = college;
+            rowToUpdate.cells[1].innerHTML = major;
+        }
+
+        function updateTable() {
+            var now = new Date();
+            var year = now.getFullYear();
+            var month = String(now.getMonth() + 1).padStart(2, '0');
+            var day = String(now.getDate()).padStart(2, '0');
+            var hours = String(now.getHours()).padStart(2, '0');
+            var minutes = String(now.getMinutes()).padStart(2, '0');
+            var seconds = String(now.getSeconds()).padStart(2, '0');
+            var time = year + '/' + month + '/' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+            
+            var num = 0;
+            var table = document.querySelector('.result table');
+            var rows = table.querySelectorAll('tr');
+
+            for (var i = 1; i <= 10; i++) {
+                if (rows[i].cells[0].innerHTML.trim() !== '' && rows[i].cells[1].innerHTML.trim() !== '') {
+                    num++;
+                }
+            }
+
+            document.getElementById('majorNum').innerHTML = '<h4>'+'Total Number of Majors Applied: ' + num+'</h4>';
+            document.getElementById('changeTime').innerHTML = '<h4>' + 'Last change time: '+ time + '</h4>';
+        }
+
+        var submitLink= document.querySelector('#submit');
+        submitLink.addEventListener('click',submit);
+        function submit(event){
+            event.preventDefault();
+            var message = document.getElementById('validation');
+            var table = document.querySelector('.result table');
+            var rows = table.querySelectorAll('tr');
+            var nonEmptyRows = Array.from(rows).slice(1).filter(row => row.cells[0].innerHTML !== '' || row.cells[1].innerHTML !== '');
+
+            if (nonEmptyRows.length === 0) {
+                message.textContent = 'You have not chosen any major.';
+                message.style.color = 'red';
+                updateTable();
+            } else {
+                var gaps = [];
+                var foundGap = false;
+
+                for (var i = 1; i < 10; i++) {
+                    if (rows[i].cells[0].innerHTML === '' && rows[i].cells[1].innerHTML === '') {
+                        var nextNonEmptyRow = nonEmptyRows.find(row => Array.from(rows).indexOf(row) > i);
+                        if (nextNonEmptyRow) {
+                            gaps.push(ordinal(i));
+                            foundGap = true;
+                        }
+                    }
+                }
+
+                if (foundGap) {
+                    message.textContent = 'You have not chosen your ' + gaps.join(' and ') + ' chosen major. You cannot leave any gap between your majors.';
+                    message.style.color = 'red';
+                    updateTable();
+                } else {
+                    message.textContent = 'You have successfully submitted your application at time ' +timeNow();
+                    message.style.color = 'red';
+                    updateTable();
+                }
+            }
+        
+        }
+        function timeNow(){
+            var now = new Date();
+            var year = now.getFullYear();
+            var month = String(now.getMonth() + 1).padStart(2, '0');
+            var day = String(now.getDate()).padStart(2, '0');
+            var hours = String(now.getHours()).padStart(2, '0');
+            var minutes = String(now.getMinutes()).padStart(2, '0');
+            var seconds = String(now.getSeconds()).padStart(2, '0');
+            var time = year + '/' + month + '/' + day + ' ' + hours + ':' + minutes + ':' + seconds;
+            return time;
+
+        }
+        var clearLink = document.querySelector('#clear');
+        clearLink.addEventListener('click', clear);
+
+        function clear(event) {
+            event.preventDefault(); 
+            var table = document.querySelector('.result table');
+            var rows = table.querySelectorAll('tr');
+
+            for (var i = 1; i <= 10; i++) {
+                rows[i].cells[0].innerHTML = '';
+                rows[i].cells[1].innerHTML = '';
+            }
+            document.getElementById('validation').innerHTML='';
+            updateTable(); 
+        }
+
+        
+    
+    </script>
+    
+   
+    
+    <footer id="footer">
+        <img src="../image/footer_logo.png" width="300" height="100" alt="school logo">
+        <p>© CityU 2023 sources of images and text from Wikipedia Commons and
+            Courtesy of Icon pack by Icons8 -- designed by <a href="design%20page.html">Wanyue Zhang</a></p>
+    </footer>
+    
+</body>
+</html>

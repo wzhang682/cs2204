@@ -1,0 +1,69 @@
+
+#mainNav,.Welcome{
+    visibility: hidden;
+}
+.ceng,.csc,.cis,#title{
+    display: none;
+}
+
+#footer img{
+    clear: both;
+    display: block;
+    margin: auto;
+}
+#footer p{
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    
+}
+#footer{
+    background-image: linear-gradient(rgb(211, 204, 204), rgb(172, 159, 159));
+}
+#footer a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.result table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+
+}
+body{
+    background-image: linear-gradient(white,rgb(197, 189, 189));
+}
+
+.result table th,td{
+    
+    border: 1px solid black;
+    padding: 10px 0;
+}
+.result table th{
+    background-color: rgb(188, 153, 165);
+}
+.result table tr:nth-child(even){
+    background-color: rgb(211, 211, 211);
+}
+.result table tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+.result table td:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+.result a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:2px;
+    margin: 5px;
+    font-weight: 700;
+    color: black;
+}

@@ -1,0 +1,55 @@
+.Welcome p{
+    text-align: center;
+
+}
+.Welcome{
+    background-image: linear-gradient(rgb(211, 204, 204),white);
+    border-top: 5px solid rgb(211, 204, 204) ;
+    width: 100%;
+}
+
+#location{
+    margin-top: 50px;
+    width: 100%;
+    background-image: linear-gradient(white,rgb(211, 204, 204),white);
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#text{
+    width: 40%;
+    float:left;   
+}
+#img {
+    width: 50%;
+    float:left; 
+    margin-left: 40px;  
+}
+#img img{
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+    
+}
+.reservation{
+    background-image: linear-gradient(white,rgb(211, 204, 204));
+    text-align: center;
+    width: 100%;
+}
+fieldset{
+    margin: 0 auto;
+    float: none;
+    width: 600px ;
+    height: 200px;
+
+}
+.button{
+    margin: 10px;
+}

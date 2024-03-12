@@ -1,0 +1,7 @@
+#block p{
+    font-size: larger;
+    font-weight: 800;
+    text-align: center;
+    display: block;
+    background-color: lightgrey;
+}

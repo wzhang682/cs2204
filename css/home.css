@@ -1,0 +1,58 @@
+.Welcome p{
+    text-align: center;
+
+}
+.Welcome{
+    background-image: linear-gradient(rgb(211, 204, 204),white);
+    margin: 0%;
+    padding: 0%;
+    border-top: 5px solid rgb(211, 204, 204) ;
+}
+#main{
+    margin-top: 50px;
+    width: 100%;
+    background-image: linear-gradient(white,rgb(211, 204, 204));
+    display: flex;
+    justify-content: space-between;
+}
+#basicinformation{
+    width: 55%;
+    float: left;
+    font-size: large;
+}
+#location{
+    width: 40%;
+    float: right;
+    
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#loc{
+    
+    transition: transform 3s linear;
+    max-width: 100%;
+    height: auto;
+}
+#loc:hover{
+    transform: scale(2.0,2.0);
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

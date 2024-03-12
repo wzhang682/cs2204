@@ -1,0 +1,49 @@
+#logo{
+    width: 800px;
+    height:80px;
+    clear: both;
+    display: block;
+    margin: auto;
+}
+#information{
+    border-top: 1px solid black;
+    padding:10px;
+    margin: auto;
+    column-count: 3;
+    background-image: linear-gradient(rgb(211, 204, 204),white);
+    width: 80%;
+}
+
+#sheet{
+    background-image: linear-gradient(white,rgb(211, 204, 204));
+}
+#sheet table{
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+ 
+}
+#sheet table caption{
+    background-color: rgb(230, 230, 230);
+    font-weight: 900;
+    margin: 1em 0;
+}
+#sheet table th,td{
+    
+    border: 1px solid black;
+    padding: 10px 0;
+}
+#sheet table th{
+    background-color: rgb(255, 255, 255);
+}
+#sheet table tr:nth-child(even){
+    background-color: rgb(211, 211, 211);
+}
+
+#sheet table td:hover{
+    background-color: gray;
+    color: aliceblue;
+}

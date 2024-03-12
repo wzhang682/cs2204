@@ -1,0 +1,30 @@
+.contact p{
+    text-align:center;
+    font-size: larger;
+    font-weight: 800;
+}
+.contact table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact table td,th{
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+.contact{
+    background-image: linear-gradient(rgb(211, 204, 204),white,rgb(211, 204, 204));
+    margin: 0%;
+    padding: 0%;
+    border-top: 5px solid rgb(211, 204, 204) ;
+}
+.contact table th{
+    background-color: lightslategray;
+}
+.contact table td{
+    background-color:white;
+}
+
+
